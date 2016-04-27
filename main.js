@@ -1,14 +1,14 @@
-//THE OBJECT OF MY AFFECTION: OBJECTS
-//IN CLASS OBJECT EXERCISES
-
-// For any methods that we didn't cover, please refer to the Object Documentation.
-// Please console.log("Question#") followed by console.log(yourAnswer) after each question.
-// If you would like, practice using document.write() as well.
-// Use any elements you like!
-
-// ==========================================================================
-
 // 1. Create an object called "me" that describes you with your name, city, and job title.
+
+var me = {
+  name: "Morgan",
+  city: "Seattle",
+  job: "Online Marketing Director",
+  
+};
+
+console.log("Question 1")
+console.log(me);
 
 // 2. To your "me" object, add a key of "family" with the value being an array of three of your family members.
 // Example of desired output: { name: 'Bob Smith',
@@ -16,7 +16,29 @@
 //                              jobTitle: 'professional wrestler',
 //                              family: ['Joan', 'Kyle', 'Hank'] }
 
+var me = {
+  name: "Morgan",
+  city: "Seattle",
+  job: "Online Marketing Director",
+  family: ['Michael', 'Maire', 'Brendan']
+  
+};
+console.log("Question 2");
+console.log(me);
+
 // 3. Using the "me" object, use the two different methods to access the value of your city.
+
+var me = {
+  name: "Morgan",
+  city: "Seattle",
+  job: "Online Marketing Director",
+  family: ['Michael', 'Maire', 'Brendan']
+  
+};
+console.log("Question 3 - Dot Notation");
+console.log(me.city);
+
+
 
 // Use the following Object for questions 4-9:
 var invitees = { adults: [{
@@ -54,6 +76,10 @@ var invitees = { adults: [{
                       };
 
 // 4. Access Penny's dinner choice (this will be the second item in his dinnerChoice array)
+
+var pennydinner = invitees.adults[0].dinnerChoice[1]
+console.log("Question 4")
+console.log(pennydinner);
 
 // 5. Access Pablo's table number.
 
