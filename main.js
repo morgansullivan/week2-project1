@@ -83,6 +83,10 @@ console.log(pennydinner);
 
 // 5. Access Pablo's table number.
 
+var pablotable = invitees.children[1].table
+console.log("Question 5")
+console.log(pablotable);
+
 // 6. Access Lauren's seating specialConsideration.
 
 // 7. Access Billy's dessert choice (this will be the third item in his dinnerChoice array)
@@ -111,29 +115,35 @@ console.log(pennydinner);
 
 
 // Final desired result:
-    // var books = [ISBN22222:  {
+    // var books = [
+                   {
+                     ISBN: 22222
     //                             title: "You Had Me at Woof",
     //                             author: "Julie Klum",
     //                             pages: 207
     //                           },
-    //              ISBN33333:  {
+    //             { ISBN: 33333
     //                             title: "The Catcher in the Rye",
     //                             author: "JD Salinger",
     //                             pages: 214
     //                           },
-    //              ISBN44444:  {
+    //              {ISBN: 44444  
     //                             title: "Bangkok Haunts",
     //                             author: "John Burdett",
     //                             pages: 569,
     //                           }
-    //             ]
+    //             ];
+    
+      
 
 // 16. Access the author of the first book.
+books[0];
 
 // 17. Get the length of the author the the third book.
 
 // 18. To each book object variable, add a key of "dateRead" with a value of the year you read the book.
 //     (Go ahead and make this up, too. Get wild.)
+books[0].dateRead = '1991'
 
 // 19. Remove the second book from the books Array.
 
